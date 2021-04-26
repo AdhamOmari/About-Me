@@ -1,0 +1,30 @@
+
+nav {
+    color: chartreuse;
+    text-decoration: none ;
+    
+    margin: 60px ;
+  display: inline-block;
+}
+h1{
+    text-align: center;
+    background-color: red;
+}
+
+section{
+    text-align: end;
+    color:white; 
+}
+
+article{
+    background-color: black;
+}
+img{
+height: 500px;
+width: 1500px;
+}
+
+p{
+    text-align: left;
+
+}
