@@ -3,101 +3,124 @@
 
 let username = prompt("Enter you'r name ").toUpperCase();
 
-alert( username);
+    alert(username + " welcome ");
 
 
-let myname = prompt('whats my name').toLowerCase();
-switch (myname) {
-    case 'adham':
-        alert(myname );
-        console.log("nice one");
-        break;
 
-    case 'ali':
-        alert(myname +'no');
-        console.log("not right ");
-        break;
+let myname = prompt('is my name Adham (y,yes,no,n)').toLowerCase();
 
-    case 'omar':
-        alert(myname + 'no no');
-        console.log("fine");
-        break;
+    switch (myname) {
+        case 'y':
+            alert(myname + ' yes for sure ');
+            console.log("nice one");
+            break;
 
-    default:
-        alert('no')
-        console.log("it's ok ");
-        break;
-}
+        case 'yes':
+            alert(myname + ' yes for sure ');
+            console.log("not right ");
+            break;
+
+        case 'n':
+            alert(myname + 'no no');
+            console.log("fine");
+            break;
+
+            case 'no':
+            alert(myname + 'no no');
+            console.log("fine");
+            break;
+            
+
+        default:
+            alert('no')
+            console.log("it's ok ");
+            break;
+    }
 
 
-let startday = prompt('which year I started studying in al husin ');
-switch (startday) {
-    case '2016':
+let startday = prompt('did I study in al husin use (y,yes,no,n)');
+
+
+    switch (startday) {
+        case 'y':
+            alert('correct answer')
+            console.log('thank you')
+            break;
+        case 'yes':
+            alert('correct answer')
+            console.log('thank you')
+            break;
+        case 'no':
+            console.log('no')
+            break;
+        case 'n':
+
+            console.log('no')
+            break;
+        default:
+            console.log("it's 2016");
+
+    }
+
+
+let lovetechnolgy = prompt('do i like technology use (y,yes,no,n)').toLowerCase();
+ 
+    if (lovetechnolgy == 'y' || lovetechnolgy == 'yes') {
+        alert(lovetechnolgy + '  correct answer')
+        console.log('great choice ')
+
+    } else if (lovetechnolgy == 'no ' || lovetechnolgy == 'n') {
+        console.log('why');
+
+    }
+
+
+
+let learncode = prompt('do i like  to learn code use (y,yes,no,n)').toUpperCase();
+
+    if (learncode == 'y' || learncode =='yes') {
+
+        alert(learncode + ' correct answer ')
+        console.log('great start now  ')
+
+    } else if (learncode == 'n' || learncode == 'no') {
+        console.log('can i change your mind');
+
+    }
+
+
+
+let lenovolap = prompt('do i use lenovo laptop use (y,n,yes.no)').toLowerCase();
+
+    if (lenovolap == 'y' || lenovolap == 'yes' && lenovolap !== 'n' || lenovolap !== 'no') {
+        alert(lenovolap + ' correct answer')
+        console.log(lenovolap);
+
+
+    }
+    else {
+        console.log('are you sure ');
+    }
+
+
+let myold = prompt(' did I complete  25 years?  \' use (y,yes,no,n)');
+
+    if (myold !== 'n' || myold !== 'no' &&  myold =='y' || myold =='yes') {
+        console.log(myold);
+    }
+
+    else {
+
         alert('correct answer')
-        console.log('thank you')
-        break;
-    case '2020':
-        console.log('read agian \ -4 hints ')
-        break;
+        console.log(usegit)
 
-    default:
-        console.log("it's 2016");
+    }
 
-}
-
-let lovetechnolgy = prompt('do you like technology use (y,yes,no,n)').toLowerCase();
-
-if (lovetechnolgy == 'y' || lovetechnolgy == 'yes') {
-    alert( 'correct answer')
-    console.log('great choice ')
-
-} else if (lovetechnolgy == 'no ' || lovetechnolgy == 'n') {
-    console.log('why');
-
-}
-
-
-let learncode = prompt('do want to learn code use (y,yes,no,n)').toUpperCase();
-
-if (lovetechnolgy == 'Y' || lovetechnolgy == 'YES') {
-
-    alert( 'correct answer ')
-    console.log('great start now  ')
-
-} else if (lovetechnolgy == 'N' || lovetechnolgy == 'NO') {
-    console.log('can i change your mind');
-
-}
-
-
-let lenovolap = prompt('do you use lenovo laptop use (y,n,yes.no)').toLowerCase();
-if (lenovolap == 'y' || lenovolap == 'yes' && lenovolap !== 'n' || lenovolap !== 'no') {
-    alert('correct answer')
-    console.log(lenovolap);
-
-
-}
-else {
-    console.log('are you sure ');
-}
-
-let usegit = prompt('did you try to use githup \' use (y,yes,no,n)');
-if (usegit !== 'n' || usegit !== no && usegit == 'y' || usegit == 'yes') {
-    console.log(usegit);
-}
-
-else {
-
-    alert( 'correct answer')
-    console.log(usegit)
-
-}
-
-let help = prompt('do you need any help \'use just (y,yes,no,n)').toUpperCase();
+let help = prompt('do i need any help  in CSS \'use just (y,yes,no,n)').toUpperCase();
 switch (help) {
     case 'Y':
 
-        alert( 'correct answer');
+        alert('correct answer');
 
         console.log("nice one");
         break;
@@ -121,5 +144,7 @@ switch (help) {
         console.log("it's ok ");
         break;
 }
-alert(username);
+
+
+alert(username +' thank you for your time ');
 console.log(username);
