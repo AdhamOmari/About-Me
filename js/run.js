@@ -65,11 +65,11 @@ let startday = prompt('did I study in al husin use (y,yes,no,n)');
 
 let lovetechnolgy = prompt('do i like technology use (y,yes,no,n)').toLowerCase();
  
-    if (lovetechnolgy == 'y' || lovetechnolgy == 'yes') {
+    if (lovetechnolgy ==='y' || lovetechnolgy === 'yes') {
         alert(lovetechnolgy + '  correct answer')
         console.log('great choice ')
 
-    } else if (lovetechnolgy == 'no ' || lovetechnolgy == 'n') {
+    } else if (lovetechnolgy === 'no ' || lovetechnolgy === 'n') {
         console.log('why');
 
     }
@@ -78,12 +78,12 @@ let lovetechnolgy = prompt('do i like technology use (y,yes,no,n)').toLowerCase(
 
 let learncode = prompt('do i like  to learn code use (y,yes,no,n)').toUpperCase();
 
-    if (learncode == 'y' || learncode =='yes') {
+    if (learncode ==='Y' || learncode ==='YES') {
 
         alert(learncode + ' correct answer ')
         console.log('great start now  ')
 
-    } else if (learncode == 'n' || learncode == 'no') {
+    } else if (learncode === 'N' || learncode ==='NO') {
         console.log('can i change your mind');
 
     }
@@ -105,14 +105,15 @@ let lenovolap = prompt('do i use lenovo laptop use (y,n,yes.no)').toLowerCase();
 
 let myold = prompt(' did I complete  25 years?  \' use (y,yes,no,n)');
 
-    if (myold !== 'n' || myold !== 'no' &&  myold =='y' || myold =='yes') {
-        console.log(myold);
-    }
-
-    else {
-
+    if ( myold =='y' || myold =='yes'&&myold !=='n' || myold !== 'no'  ) {
+        
         alert('correct answer')
         console.log(usegit)
+    }
+
+    else  {
+        console.log(myold);
+        
 
     }
 
