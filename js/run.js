@@ -154,7 +154,7 @@ switch (help) {
         break;
 }
 
-let myNumber = ['10','5','20','14'];
+let myNumber = ['10', '5', '20', '14'];
 
 for (let enterNumber = 1; enterNumber <= 4; enterNumber++) {
     let numper = parseInt(prompt('pleas guess my number ?'));
@@ -171,24 +171,27 @@ for (let enterNumber = 1; enterNumber <= 4; enterNumber++) {
 alert('the correct answar is 10')
 
 
-let colors = ['red ', 'black', 'green'];
+
+
+let colors = ['red', 'black', 'green'];
+
 let flag = false;
 
 for (let attempt = 1; attempt <= 6; attempt++) {
-    let useranswer = prompt("enter my ");
-    for (let index = 0; index < colors.length; index++) {
-        
-        if (useranswer === colors) {
-            alert('correct');
+
+    let useranswer = prompt("enter my  color");
+
+    for (let i = 0; i < colors.length ; i++) {
+        if (useranswer === colors[i]) {
+            alert(useranswer +' correct');
             flag = true;
             break;
         }
     }
+
     if (flag === true) {
-        break;
+      break ;
     }
-
 }
-
-alert(username + ' thank you for your time ');
+//alert(username + ' thank you for your time ');
 //console.log(username);
