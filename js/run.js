@@ -1,6 +1,7 @@
 
 //alert("please answer the question !");
-
+'use strict'
+function Usersnames(){
 let username = prompt("Enter you'r name ").toUpperCase();
 
 alert(username + " welcome ");
@@ -34,9 +35,10 @@ switch (myname) {
         alert('no')
         //console.log("it's ok ");
         break;
-}
+}}
+Usersnames();
 
-
+function day (){
 let startday = prompt('did I study in al husin use (y,yes,no,n)');
 
 
@@ -61,8 +63,10 @@ switch (startday) {
     default:
         console.log("it's 2016");
 
-}
+}}
+day ();
 
+function tecnology(){
 
 let lovetechnolgy = prompt('do i like technology use (y,yes,no,n)').toLowerCase();
 
@@ -74,10 +78,10 @@ if (lovetechnolgy === 'y' || lovetechnolgy === 'yes') {
     alert('why')
     //console.log('why');
 
-}
+}} 
+tecnology();
 
-
-
+function learn(){
 let learncode = prompt('do i like  to learn code use (y,yes,no,n)').toUpperCase();
 
 if (learncode === 'Y' || learncode === 'YES') {
@@ -90,9 +94,11 @@ if (learncode === 'Y' || learncode === 'YES') {
 
     // console.log('can i change your mind');
 
-}
+}}
 
+learn();
 
+function lenovo(){
 
 let lenovolap = prompt('do i use lenovo laptop use (y,n,yes.no)').toLowerCase();
 
@@ -106,8 +112,10 @@ else {
     alert("fine");
 
     //console.log('are you sure ');
-}
+}}
+lenovo();
 
+function old (){
 
 let myold = prompt(' did I complete  25 years?  \' use (y,yes,no,n)');
 
@@ -123,8 +131,10 @@ else {
     //console.log(myold);
 
 
-}
+}}
+old ();
 
+function askHelp(){
 let help = prompt('do i need any help  in CSS \'use just (y,yes,no,n)').toUpperCase();
 switch (help) {
     case 'Y':
@@ -152,8 +162,10 @@ switch (help) {
     default:
         console.log("it's ok ");
         break;
-}
+}}
+askHelp();
 
+function guessNum(){
 let myNumber = ['10','5','20','14'];
 
 for (let enterNumber = 1; enterNumber <= 4; enterNumber++) {
@@ -167,10 +179,12 @@ for (let enterNumber = 1; enterNumber <= 4; enterNumber++) {
     } else if (numper < myNumber) {
         alert('too low')
     }
-}
+}}
+guessNum();
+
 alert('the correct answar is 10')
 
-
+function color(){
 let colors = ['red ', 'black', 'green'];
 let flag = false;
 
@@ -188,7 +202,8 @@ for (let attempt = 1; attempt <= 6; attempt++) {
         break;
     }
 
-}
+}}
+color();
 
 alert(username + ' thank you for your time ');
 //console.log(username);
