@@ -11,20 +11,26 @@ h1{
     background-color: red;
 }
 
-section{
-    text-align: end;
-    color:white; 
-}
-
-article{
-    background-color: black;
-}
-img{
-height: 500px;
-width: 1500px;
-}
-
 p{
     text-align: left;
+background-color: darkolivegreen;}
+ol li {
+     color: dimgray;
+    bottom:auto;
 
+}
+img {
+    width: 680px;
+    height: 680px;
+    object-fit: scale-down;
+}
+
+
+section{
+    text-align: justify;
+}
+#only{
+    
+    text-align: center;
+    color: darkorange;
 }

@@ -75,7 +75,6 @@ let lovetechnolgy = prompt('do i like technology use (y,yes,no,n)').toLowerCase(
 if (lovetechnolgy === 'y' || lovetechnolgy === 'yes') {
     alert(lovetechnolgy + '  correct answer')
     cunter++ ;
-    break ;
 
     //console.log('great choice ')
 
@@ -93,7 +92,6 @@ if (learncode === 'Y' || learncode === 'YES') {
     cunter++ ;
 
     alert(learncode + ' correct answer ')
-break ;
 
 } else if (learncode === 'N' || learncode === 'NO') {
     alert("fine");
@@ -106,11 +104,10 @@ break ;
 
 let lenovolap = prompt('do i use lenovo laptop use (y,n,yes.no)').toLowerCase();
 
-if (lenovolap == 'y' || lenovolap == 'yes' && lenovolap !== 'n' || lenovolap !== 'no') {
+if (lenovolap == 'y' || lenovolap == 'yes' && lenovolap == 'n' || lenovolap == 'no') {
     alert(lenovolap + ' correct answer')
     //console.log(lenovolap);
     cunter++ ;
-break ;
 
 }
 else {
@@ -122,7 +119,7 @@ else {
 
 let myold = prompt(' did I complete  25 years?  \' use (y,yes,no,n)');
 
-if (myold == 'y' || myold == 'yes' && myold !== 'n' || myold !== 'no') {
+if (myold == 'y' || myold == 'yes' && myold == 'n' || myold == 'no') {
     cunter++ ;
 
     alert('correct answer')
@@ -195,11 +192,11 @@ for (let enterNumber = 1; enterNumber <= 4; enterNumber++) {
 
 
 
-let colors = ['red', 'black', 'green'];
+let colors = ['red','car','black','blue'];
 
 let flag = false;
 
-for (let attempt = 1; attempt <= 2; attempt++) {
+for (let attempt = 1; attempt <= 6; attempt++) {
 
     let useranswer = prompt("enter my  color");
 
@@ -211,15 +208,17 @@ for (let attempt = 1; attempt <= 2; attempt++) {
 
             break;
         }
-        }
+    }
+        
+        
          if(flag === true) {
-            alert(useranswer + "not correct")
             break;
+         }
     }
 
     
-}
 
+alert('your correct answer is '+ cunter) ;
 
 //alert(username + ' thank you for your time ');
 //console.log(username);
