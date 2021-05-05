@@ -1,36 +1,28 @@
-
-nav {
-    color: chartreuse;
-    text-decoration: none ;
-    
-    margin: 60px ;
-  display: inline-block;
+html{
+    background-color: burlywood;
 }
+
+
 h1{
     text-align: center;
     background-color: red;
 }
 
 p{
-    text-align: left;
 background-color: darkolivegreen;}
-ol li {
-     color: dimgray;
-    bottom:auto;
-
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+      margin-left: 35px;
 }
+
+
 img {
-    width: 680px;
-    height: 680px;
-    object-fit: scale-down;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
-
-section{
-    text-align: justify;
-}
 #only{
-    
-    text-align: center;
-    color: darkorange;
+    background-color: crimson;
 }
